@@ -1,4 +1,4 @@
-a,b=raw_input().split()
-a=int(a)
-b=int(b)
-print(a**b)
+c,d=raw_input().split()
+c=int(c)
+d=int(d)
+print(c**d)
