@@ -1,10 +1,10 @@
-n=int(raw_input())
-temp=n
+ch=int(raw_input())
+temp=ch
 rev=0
-while(n>0):
-    dig=n%10
+while(ch>0):
+    dig=ch%10
     rev=rev*10+dig
-    n=n//10
+    ch=ch//10
 if(temp==rev):
     print("yes")
 else:
