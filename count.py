@@ -1,6 +1,6 @@
 c=int(raw_input())
-count=0
+cnt=0
 while(c>0):
-    count=count+1
+    cnt=cnt+1
     c=c//10
-print(count)
+print(cnt)
