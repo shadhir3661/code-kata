@@ -1,7 +1,7 @@
 lower,upper=raw_input().split()
 lower =int(lower)
 upper = int(upper)
-for num in range(lower, upper + 1):
+for num in range(lower+1, upper):
    order = len(str(num))
    sum = 0
    temp = num
