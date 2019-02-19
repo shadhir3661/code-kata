@@ -1,4 +1,4 @@
-n=int(input())
+ch=int(input())
 l=[]
 l=input().split()
 for i in range(0,len(l)):
