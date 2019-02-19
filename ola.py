@@ -23,7 +23,7 @@ elif choice==3:
     b=kms*mini
 elif choice==4:
     b=kms*prime
-print('please confirm booking\n 1.yes 1.no')
+print('please confirm booking\n 1.yes 2.no')
 stat=int(input())
 if stat==1:
     print('yes')
