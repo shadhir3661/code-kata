@@ -1,7 +1,7 @@
 print('welcome to ola')
 place=["tambaram","adyar","ambatur"]
 distance=[35,30,50]
-print("please select destination\n1.tambaram,2.adayar,3.ambathur")
+print("please select destination\n1.tambaram,2.adyar,3.ambathur")
 dest=int(input())
 if dest==1:
     kms=distance[0]
@@ -23,7 +23,15 @@ elif choice==3:
     b=kms*mini
 elif choice==4:
     b=kms*prime
+print('please confirm booking\n 1.yes 1.no')
+stat=int(input())
+if stat==1:
+    print('yes')
+else:
+    print('no')
 print("the amount for your trip is",b)
-
+print("the selected location is",dest)
+print('the selected cab is',choice)
+print('the total fare is',b)
 
 
