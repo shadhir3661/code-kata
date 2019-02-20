@@ -1,7 +1,7 @@
 print('WELCOME TO QUEUE')
 l=[]
 while True:
-    print('please select the operation you want to use\n1.push 2.pop 3.size of stack 4.emptiness 5.exit')
+    print('please select the operation you want to use\n1.enqueue 2.dequeue 3.size of stack 4.emptiness 5.exit')
     a=input()
     a=int(a)
     b=len(l)
